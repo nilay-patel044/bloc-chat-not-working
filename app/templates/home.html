@@ -7,9 +7,7 @@
 
         <h4>Room 3</h4> -->
 
-        <h4 ng-repeat="Room in home.rooms track by $index">
-        Room {{ ($index + 1) }}
-        </h4>
+        <h4 ng-repeat="room in home.rooms">{{ room.name }}</h4>
 
     </div>
 </section>
